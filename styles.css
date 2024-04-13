@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: url('Fonts/nasalization-rg.otf') format('opentype');
+    /* Add additional src lines if needed for different formats */
+}
+
 .holder {
     position: relative;
     width: 100%;
@@ -20,10 +26,25 @@
     z-index: 1; /* Ensures the logo is above the iframe */
 }
 
+.coming-soon {
+    position: absolute;
+    bottom: 30%; /* Adjust as needed */
+    left: 50%;
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transform: translateX(-50%);
+    color: #b4a192; /* Text color */
+    z-index: 1; /* Ensures the text is above the iframe */
+    font-family: 'Nasalization', sans-serif; /* Use the custom font */
+}
+
 /* Media query for mobile view */
 @media (max-width: 768px) {
     .logo {
         width: 70%; /* Adjust width for mobile view */
         max-width: 150px; /* Adjust maximum width for mobile view */
+    }
+    .coming-soon {
+        font-size: 18px; /* Adjust font size for mobile view */
     }
 }
