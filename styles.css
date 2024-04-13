@@ -1,0 +1,29 @@
+.holder {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Set height to viewport height */
+}
+
+.frame {
+    width: 100%;
+    height: calc(100% - 50px); /* Adjust height to leave space for the logo */
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* Set width to 50% of the viewport */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Limit maximum width */
+    z-index: 1; /* Ensures the logo is above the iframe */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .logo {
+        width: 70%; /* Adjust width for mobile view */
+        max-width: 150px; /* Adjust maximum width for mobile view */
+    }
+}
