@@ -9,4 +9,11 @@
 <body>
     <spline-viewer url="https://prod.spline.design/KqywnDKjja2nMXHC/scene.splinecode"></spline-viewer>
 </body>
+
+<script>
+    window.onload = function() {
+        var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+        shadowRoot.querySelector('#logo').remove();
+    }
+</script>
 </html>
