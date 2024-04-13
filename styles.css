@@ -28,14 +28,20 @@
 
 .coming-soon {
     position: absolute;
-    bottom: 30%; /* Adjust as needed */
+    bottom: 20px; /* Adjust as needed */
     left: 50%;
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Font weight */
     transform: translateX(-50%);
     color: #b4a192; /* Text color */
-    z-index: 1; /* Ensures the text is above the iframe */
     font-family: 'Nasalization', sans-serif; /* Use the custom font */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Font weight */
+    z-index: 1; /* Ensures the text is above the iframe */
+    text-align: center; /* Center the text horizontally */
+    width: 80%; /* Limit text width to avoid breaking too early */
+    max-width: 300px; /* Adjust as needed */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
 }
 
 /* Media query for mobile view */
