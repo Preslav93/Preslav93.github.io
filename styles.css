@@ -196,7 +196,7 @@ html {
   }
   
   .w-icon-nav-menu:before {
-    content: "î˜‚";
+    content: "";
   }
   
   .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
@@ -3839,14 +3839,14 @@ html {
   
   @font-face {
     font-family: 'Audiowide';
-    src: url('https://uploads-ssl.webflow.com/661d981df0d712bfbba2dd9c/661d9967854dcf9119028dab_Audiowide-Regular.ttf') format('truetype');
+    src: url('./Fonts/Audiowide-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Nasalization Rg';
-    src: url('https://uploads-ssl.webflow.com/661d981df0d712bfbba2dd9c/661d993a3293a419c7d854bf_nasalization-rg.otf') format('opentype');
+    src: url('./Fonts/nasalization-rg.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;

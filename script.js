@@ -13623,7 +13623,7 @@
           var google = null;
           var $maps;
           var namespace = ".w-widget-map";
-          var googleMapsApiKey = "AIzaSyDJ3CJAw8OlrRDo6FSpu0hnzzp5u_U88CM";
+          var googleMapsApiKey = "";
           api.ready = function() {
             if (!Webflow.env()) {
               initMaps();
