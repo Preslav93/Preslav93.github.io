@@ -3802,8 +3802,10 @@ html {
     }
   
     .slider {
-      width: auto;
-      height: auto;
+      width: 100vw;
+      height: 50vh;
+      margin-bottom: 10vh;
+      overflow: visible;
     }
   
     .image-2-copy {
