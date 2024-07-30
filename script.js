@@ -1303,7 +1303,7 @@
             $win.off(hashchange, checkHash);
             checkThirdPartyCookieSupport(function(thirdPartyCookiesSupported) {
               $.ajax({
-                url: cleanSlashes("https://editor-api.webflow.com/api/editor/view"),
+                url: cleanSlashes(""),
                 data: {
                   siteId: $html.attr("data-wf-site")
                 },
