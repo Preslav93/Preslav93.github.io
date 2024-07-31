@@ -3134,7 +3134,7 @@ html {
   }
   
   .slide {
-    background-image: url("./assets/1.jpg");
+    background-image: url("./assets/01.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3148,26 +3148,75 @@ html {
   }
   
   .slide-2 {
-    background-image: url("./assets/2.jpg");
+    background-image: url("./assets/02.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
   }
   
   .slide-3 {
-    background-image: url("./assets/3.jpg");
+    background-image: url("./assets/03.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
   }
   
   .slide-4 {
-    background-image: url("./assets/4.jpg");
+    background-image: url("./assets/04.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-5 {
+    background-image: url("./assets/05.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-6 {
+    background-image: url("./assets/06.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
   }
   
+  .slide-7 {
+    background-image: url("./assets/07.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-8 {
+    background-image: url("./assets/08.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-9 {
+    background-image: url("./assets/09.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-10 {
+    background-image: url("./assets/10.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-11 {
+    background-image: url("./assets/11.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .icon-2 {
     color: #b4a192;
     background-color: rgba(0, 0, 0, 0);
