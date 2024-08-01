@@ -3363,6 +3363,27 @@ html {
   .footer-link-instagram:hover {
     color: #fff;
   }
+
+  .footer-link-facebook {
+    color: #6b6b6b;
+    background-image: url("./assets/facebook.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .footer-link-facebook:hover {
+    color: #fff;
+  }
   
   .footer-link-phone {
     color: #6b6b6b;
