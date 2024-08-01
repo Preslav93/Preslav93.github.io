@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /assets/
 Disallow: /fonts/
+SITEMAP: https://eclipsefilm.gr/sitemap.xml
