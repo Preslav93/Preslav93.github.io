@@ -3217,6 +3217,27 @@ html {
     background-size: contain;
   }
 
+  .slide-12 {
+    background-image: url("./assets/12.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-13 {
+    background-image: url("./assets/13.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slide-14 {
+    background-image: url("./assets/14.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .icon-2 {
     color: #b4a192;
     background-color: rgba(0, 0, 0, 0);
@@ -3234,6 +3255,7 @@ html {
   .image-2-copy {
     flex: none;
     max-width: none;
+    object-fit: contain;
   }
   
   .heading-6, .paragraph-9 {
